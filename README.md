@@ -9,10 +9,13 @@ The graph coloring problem has a huge number of applications like Making Schedul
 1.Detecting all non-white regions (eg. provinces or states).\
 2.Converting the input map to a simple planar graph: There will be a node for each region. Two nodes will be adjacent, if and only if their corresponding regions have a common border on the map.\
 3.Using backtracking for coloring that graph (it's a recursive function that produces all valid colorings).\
-4.Displaying all produced colorings on the given map.\
+4.Displaying all produced colorings on the given map.
 
 # Dependencies
 pip install -r dependencies.txt
 
 # Run
 python3 map_coloring.py map_image_file_name
+
+# Notes
+It runs slowly on large images.
