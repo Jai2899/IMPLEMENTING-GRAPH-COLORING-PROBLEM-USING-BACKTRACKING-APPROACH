@@ -6,7 +6,7 @@ The minimum number of colors required to color any graph such that no two adjace
 The graph coloring problem has a huge number of applications like Making Schedule or Time Table where the minimum number of time slots is equal to the chromatic number of the graph, solving sudoku puzzles, map coloring i.e. Four colors are sufficient to color any map, register allocation for compiler optimization and mobile frequency assignment.
 
 # Algorithm
-1.Detecting all non-white regions (eg. provinces or states).\n
+1.Detecting all non-white regions (eg. provinces or states).\
 2.Converting the input map to a simple planar graph: There will be a node for each region. Two nodes will be adjacent, if and only if their corresponding regions have a common border on the map.
 3.Using backtracking for coloring that graph (it's a recursive function that produces all valid colorings).
 4.Displaying all produced colorings on the given map.
