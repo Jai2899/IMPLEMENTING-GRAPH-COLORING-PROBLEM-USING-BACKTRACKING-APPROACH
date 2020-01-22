@@ -11,8 +11,8 @@ The graph coloring problem has a huge number of applications like Making Schedul
 3.Using backtracking for coloring that graph (it's a recursive function that produces all valid colorings).\
 4.Displaying all produced colorings on the given map.\
 
-#Dependencies
+# Dependencies
 pip install -r dependencies.txt
 
-#Run
+# Run
 python3 map_coloring.py map_image_file_name
