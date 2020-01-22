@@ -5,8 +5,8 @@ The minimum number of colors required to color any graph such that no two adjace
 
 The graph coloring problem has a huge number of applications like Making Schedule or Time Table where the minimum number of time slots is equal to the chromatic number of the graph, solving sudoku puzzles, map coloring i.e. Four colors are sufficient to color any map, register allocation for compiler optimization and mobile frequency assignment.
 
-This projects is divided into two parts:
-1)Basic implementation of Graph Coloring Problem
+This projects is divided into two parts:\
+1)Basic implementation of Graph Coloring Problem.\
 2)Map Coloring implementation
 
 # Algorithm
